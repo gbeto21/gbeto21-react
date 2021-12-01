@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Navbar = () => {
     return (
@@ -7,7 +9,7 @@ const Navbar = () => {
 
                 <a className="navbar-brand" href="#">GBETO21</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
