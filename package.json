@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gbeto21/gbeto21-react/issues"
   },
-  "homepage": "https://github.com/gbeto21/gbeto21-react#readme"
+  "homepage": "https://github.com/gbeto21/gbeto21-react#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
 }
