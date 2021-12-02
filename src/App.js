@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Home from './components/Home';
-import Skills from './components/Skills';
+import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio';
 
 function App() {
