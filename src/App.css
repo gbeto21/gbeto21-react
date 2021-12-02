@@ -166,3 +166,35 @@ i{
 i:hover{
   transform: scale(1.5);
 }
+
+/* This seems don't working */
+@media screen and(max-width: 1110px){
+  .profile-picture{
+    margin: 0 0px 0 80px;
+    box-shadow: 0 1px 0px 0px rgb(213, 218, 157) !important;
+  }
+}
+
+@media screen and(max-width: 910px){
+  .profile-picture{
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+    box-shadow: 0 1px 0px 0px rgb(60, 255, 0) !important;
+  }
+}
+
+@media screen and(max-width: 810px){
+  .profile-picture{
+    margin: 0 !important;
+    box-shadow: 0 1px 0px 0px rgb(0, 255, 221) !important;
+  }
+}
+
+@media screen and(max-width: 375px){
+  .profile-picture{
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+}
