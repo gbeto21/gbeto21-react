@@ -1,4 +1,5 @@
 import React from 'react'
+import Separator from './Separator/Separator'
 
 const About = () => {
     return (
@@ -25,6 +26,7 @@ const About = () => {
                 <div className='profile-picture'>
                     <div className='profile-picture-background'></div>
                 </div>
+                <Separator />
             </div>
 
         </div>
