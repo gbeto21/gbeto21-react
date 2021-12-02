@@ -96,3 +96,34 @@ nav ul li{
   width: 100vw;
   z-index: 1;
 }
+
+/******** ICONS ********/
+.icons-wrapper{
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  padding: .7rem;
+  overflow: hidden;
+}
+
+.item{
+  width: 40px;
+  height: 40px;
+  margin: 0.7rem;
+}
+
+.item-1{
+  background: url(icons/html5-logo.svg) no-repeat;
+}
+
+.item-2{
+  background: url(icons/js-logo-black.svg) no-repeat;
+}
+
+.item-3{
+  background: url(icons/node-dot.svg) no-repeat;
+}
+
+.item-4{
+  background: url(icons/react-logo-black.svg) no-repeat;
+}
