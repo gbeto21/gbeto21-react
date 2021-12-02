@@ -1,13 +1,27 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import Navbar from './components/Navbar';
-import Header from './components/Header';
 import Particles from "react-particles-js";
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Home from './components/Home';
+import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
 
 function App() {
+
+  let routes = (
+    <Routes>
+      <Route path="/" element={<Home />} exact />
+      <Route path="/about" element={<About />} exact />
+      <Route path="/skills" element={<Skills />} exact />
+      <Route path="/portfolio" element={<Portfolio />} exact />
+    </Routes>
+  )
+
   return (
-    <>
+    <BrowserRouter>
       <Particles
         params={{
           particles: {
@@ -27,11 +41,12 @@ function App() {
             }
           }
         }} />
-
       <Navbar />
-      <Header />
-    </>
+      {routes}
+    </BrowserRouter>
+
   );
 }
 
 export default App;
+//rafce
