@@ -22,7 +22,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Particles
+      {/* <Particles
         params={{
           particles: {
             number: {
@@ -40,7 +40,7 @@ function App() {
               }
             }
           }
-        }} />
+        }} /> */}
       <Navbar />
       {routes}
     </BrowserRouter>
