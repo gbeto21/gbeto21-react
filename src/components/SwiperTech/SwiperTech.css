@@ -1,37 +1,96 @@
 /******** ICONS ********/
 .item {
-  width: 100px;
-  height: 100px;
   margin: 0.7rem;
 }
 
-.item-1 {
+.item-js {
+  width: 6.25rem;
+  height: 6.25rem;
   background: url(../../icons/JavaScript.svg) no-repeat;
 }
 
-.item-2 {
+.item-nd {
+  margin-top: 1.5rem;
+  width: 10rem;
+  height: 5.563rem;
   background: url(../../icons/node.svg) no-repeat;
 }
 
-.item-3 {
-  background: url(../../icons/css3-logo.svg) no-repeat;
+.item-ex {
+  margin-top: 2rem;
+  width: 7.3rem;
+  height: 5.563rem;
+  background: url(../../icons/express.svg) no-repeat;
 }
 
-.item-4 {
-  background: url(../../icons/react-logo-black.svg) no-repeat;
+.item-rt {
+  width: 7.563rem;
+  height: 5.563rem;
+  margin-top: 1.6rem;
+  background: url(../../icons/react.svg) no-repeat;
+}
+
+.item-ts {
+  margin-left: 1.5rem;
+  margin-top: 1.6rem;
+  width: 5.563rem;
+  height: 5.563rem;
+  background: url(../../icons/typescript.svg) no-repeat;
+}
+
+.item-aw {
+  margin-top: 1.6rem;
+  width: 7rem;
+  height: 5.563rem;
+  margin-left: 0;
+  background: url(../../icons/aws.svg) no-repeat;
+}
+
+.item-gh {
+  margin-top: 1.6rem;
+  width: 7.3rem;
+  height: 5.563rem;
+  margin-left: 0;
+  background: url(../../icons/github.svg) no-repeat;
+}
+
+.item-sl {
+  margin-top: 1.6rem;
+  width: 7.3rem;
+  height: 5.563rem;
+  margin-left: 0;
+  background: url(../../icons/serverless.svg) no-repeat;
+}
+
+.item-cs {
+  margin-top: 1.6rem;
+  margin-right: 0;
+  width: 5rem;
+  height: 5rem;
+  margin-left: 0;
+  background: url(../../icons/cs.svg) no-repeat;
+  background-size: 3.5rem;
 }
 
 /******** SWAPER ********/
-.swiper-container{
-    width: 100%;
-    padding-top: 3rem;
-    padding-bottom: .5rem;
+.swiper-container {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
 }
 
-.swiper-slide{
-    text-align: center;
-    padding: 0.5rem 1rem;
-    width: 8.75rem;
-    height: 8.75rem;
-    /* border: 1px solid red; */
+.swiper-slide {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  width: 8.75rem;
+  height: 8.75rem;
+}
+
+.slide-nd {
+  margin-right: 2rem;
+  padding-left: 0rem;
+}
+
+.slide-cs {
+  width: 6rem !important;
 }
