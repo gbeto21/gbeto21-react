@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import Typed from "react-typed";
 import { motion } from "framer-motion";
 import "./Home.css";
+import SwiperTech from "../SwiperTech/SwiperTech";
+
 const Home = () => {
   const container = {
     hidden: {
@@ -77,6 +79,10 @@ const Home = () => {
                 ></motion.div>
               </div>
             </motion.div>
+          </div>
+
+          <div className="row justify-content-start mt-auto">
+            <SwiperTech />
           </div>
         </div>
       </div>

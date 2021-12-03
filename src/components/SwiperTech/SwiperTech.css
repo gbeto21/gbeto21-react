@@ -1,0 +1,37 @@
+/******** ICONS ********/
+.item {
+  width: 100px;
+  height: 100px;
+  margin: 0.7rem;
+}
+
+.item-1 {
+  background: url(../../icons/JavaScript.svg) no-repeat;
+}
+
+.item-2 {
+  background: url(../../icons/node.svg) no-repeat;
+}
+
+.item-3 {
+  background: url(../../icons/css3-logo.svg) no-repeat;
+}
+
+.item-4 {
+  background: url(../../icons/react-logo-black.svg) no-repeat;
+}
+
+/******** SWAPER ********/
+.swiper-container{
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: .5rem;
+}
+
+.swiper-slide{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    width: 8.75rem;
+    height: 8.75rem;
+    border: 1px solid red;
+}
