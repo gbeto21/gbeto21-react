@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
 
-                <a className="navbar-brand" href="#">GBETO21</a>
+                <p class="nav-title text-uppercase fs-2">gbeto21</p>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
                 </button>

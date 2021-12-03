@@ -32,11 +32,17 @@ const Home = () => {
 
     return (
         <Fragment>
-            <div className="header-wraper">
-                <div className="main-info">
-                    <h1>
-                        Hello
-                    </h1>
+
+            <div className="container" style={{ height: '60vh' }}>
+                <div className="row justify-content-start">
+                    Welcome!
+                </div>
+
+                <div className="row justify-content-start">
+                    👋🏻 Hello, I'm Alberto
+                </div>
+
+                <div className="row justify-content-start">
                     <Typed
                         className="typed-text"
                         strings={["Web developer", "AWS Certified", "Node", "Google."]}
@@ -44,22 +50,25 @@ const Home = () => {
                         backSpeed={60}
                         loop
                     />
-                    <motion.div
-                        className="icons-wrapper"
-                        variants={container}
-                        initial='hidden'
-                        animate='visible'
-                    >
-                        <div style={{ display: 'flex' }}>
-                            <motion.div className="item-1 item" variants={item}></motion.div>
-                            <motion.div className="item-2 item" variants={item}></motion.div>
-                            <motion.div className="item-3 item" variants={item}></motion.div>
-                            <motion.div className="item-4 item" variants={item}></motion.div>
-                        </div>
-                    </motion.div>
                 </div>
+
             </div>
-        </Fragment>
+
+            <motion.div
+                className="icons-wrapper"
+                variants={container}
+                initial='hidden'
+                animate='visible'
+            >
+                <div style={{ display: 'flex' }}>
+                    <motion.div className="item-1 item" variants={item}></motion.div>
+                    <motion.div className="item-2 item" variants={item}></motion.div>
+                    <motion.div className="item-3 item" variants={item}></motion.div>
+                    <motion.div className="item-4 item" variants={item}></motion.div>
+                </div>
+            </motion.div>
+
+        </Fragment >
     )
 }
 
