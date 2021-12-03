@@ -31,8 +31,8 @@ const Home = () => {
 
   return (
     <Fragment>
-      <div className="container-background">
-        <div className="container p-l-12 home-main-container">
+      <div className="container-background pt-5 ps-5">
+        <div className="container home-main-container">
           <div className="row align-items-end">
             <p className="fs-4">Welcome!</p>
           </div>
@@ -43,7 +43,7 @@ const Home = () => {
 
           <div className="row justify-content-start">
             <Typed
-              className="typed-text"
+              className="fs-1 typed-text"
               strings={["Web developer", "AWS Certified", "Node", "Google."]}
               typeSpeed={40}
               backSpeed={60}

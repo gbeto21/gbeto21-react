@@ -1,8 +1,54 @@
-.home-main-container{
-    color: var(--primary-white);
-    height: 100vh;
+.home-main-container {
+  color: var(--primary-white);
+  height: 100vh;
 }
 
-.container-background{
-     background-color: var(--primary-blue) !important;
- }
+.container-background {
+  background-color: var(--primary-blue) !important;
+}
+
+/******** TYPED TEXT ********/
+.typed-text {
+  /* font-size: 2rem; */
+  color: var(--primary-orange);
+}
+
+.main-info h1 {
+  font-size: 1.7rem !important;
+}
+
+.typed-text {
+  font-size: 1.3rem !important;
+}
+
+/******** ICONS ********/
+.icons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  padding: 0.7rem;
+  overflow: hidden;
+  color: var(--primary-white);
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  margin: 0.7rem;
+}
+
+.item-1 {
+  background: url(../../icons/JavaScript.svg) no-repeat;
+}
+
+.item-2 {
+  background: url(../../icons/node.svg) no-repeat;
+}
+
+.item-3 {
+  background: url(../../icons/css3-logo.svg) no-repeat;
+}
+
+.item-4 {
+  background: url(../../icons/react-logo-black.svg) no-repeat;
+}
