@@ -35,12 +35,12 @@ const Home = () => {
     <Fragment>
       <div className="container-background">
         <div className="container">
-          <div className="row row-cols-2">
-            <div className="col">
+          <div className="row row-cols-1 row-lg-cols-2">
+            <div className="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
               <Greetings />
             </div>
 
-            <div className="col">
+            <div className="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
               <SwiperTech />
             </div>
           </div>
