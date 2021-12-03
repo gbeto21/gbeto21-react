@@ -12,16 +12,16 @@ const Greetings = () => {
   return (
     <div>
       <div className="align-items-end">
-        <p className="fs-4">Welcome!</p>
+        <p className="fs-4 mb-0">Welcome!</p>
       </div>
 
       <div className="justify-content-start">
-        <span className="fs-1 primary-text">
-          👋🏻 Hello, I'm <span className="fs-1 greetings-name">Alberto</span>
+        <span className="fs-2">
+          👋🏻 Hello, I'm <span className="fs-2 greetings-name">Alberto</span>
         </span>
       </div>
 
-      <div className="justify-content-start">
+      <div className="justify-content-start mt-2">
         <Typed
           className="typed-text"
           strings={stringTyping}

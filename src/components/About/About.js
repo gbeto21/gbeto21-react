@@ -1,5 +1,5 @@
 import React from 'react'
-import Separator from './Separator/Separator'
+import Separator from '../Separator/Separator'
 
 const About = () => {
     return (

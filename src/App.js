@@ -4,7 +4,7 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 // import Particles from "react-particles-js";
 import Navbar from './components/Navbar';
-import About from './components/About';
+import About from './components/About/About';
 import Home from './components/Home/Home';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio';
