@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Typed from "react-typed";
+import Greetings from "../Greetings/Greetings";
 import { motion } from "framer-motion";
 import "./Home.css";
 import SwiperTech from "../SwiperTech/SwiperTech";
@@ -33,56 +33,16 @@ const Home = () => {
 
   return (
     <Fragment>
-      <div className="container-background pt-5 ps-5">
-        <div className="container home-main-container">
-          <div className="row align-items-end">
-            <p className="fs-4">Welcome!</p>
-          </div>
+      <div className="container-background">
+        <div className="container">
+          <div className="row row-cols-2">
+            <div className="col">
+              <Greetings />
+            </div>
 
-          <div className="row justify-content-start">
-            <p className="fs-1"> 👋🏻 Hello, I'm Alberto</p>
-          </div>
-
-          <div className="row justify-content-start">
-            <Typed
-              className="fs-1 typed-text"
-              strings={["Web developer", "AWS Certified", "Node", "Google."]}
-              typeSpeed={40}
-              backSpeed={60}
-              loop
-            />
-          </div>
-
-          <div className="row justify-content-start mt-auto">
-            <motion.div
-              className="icons-wrapper"
-              variants={container}
-              initial="hidden"
-              animate="visible"
-            >
-              <div style={{ display: "flex" }}>
-                <motion.div
-                  className="item-1 item"
-                  variants={item}
-                ></motion.div>
-                <motion.div
-                  className="item-2 item"
-                  variants={item}
-                ></motion.div>
-                <motion.div
-                  className="item-3 item"
-                  variants={item}
-                ></motion.div>
-                <motion.div
-                  className="item-4 item"
-                  variants={item}
-                ></motion.div>
-              </div>
-            </motion.div>
-          </div>
-
-          <div className="row justify-content-start mt-auto">
-            <SwiperTech />
+            <div className="col">
+              <SwiperTech />
+            </div>
           </div>
         </div>
       </div>
@@ -91,3 +51,33 @@ const Home = () => {
 };
 
 export default Home;
+
+{
+  /* <div className="justify-content-start mt-auto">
+                <motion.div
+                  className="icons-wrapper"
+                  variants={container}
+                  initial="hidden"
+                  animate="visible"
+                >
+                  <div style={{ display: "flex" }}>
+                    <motion.div
+                      className="item-1 item"
+                      variants={item}
+                    ></motion.div>
+                    <motion.div
+                      className="item-2 item"
+                      variants={item}
+                    ></motion.div>
+                    <motion.div
+                      className="item-3 item"
+                      variants={item}
+                    ></motion.div>
+                    <motion.div
+                      className="item-4 item"
+                      variants={item}
+                    ></motion.div>
+                  </div>
+                </motion.div>
+              </div> */
+}

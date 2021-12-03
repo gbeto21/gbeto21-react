@@ -1,0 +1,13 @@
+/******** TYPED TEXT ********/
+.typed-text {
+  /* font-size: 2rem; */
+  color: var(--primary-orange);
+}
+
+.main-info h1 {
+  font-size: 1.7rem !important;
+}
+
+.typed-text {
+  font-size: 1.3rem !important;
+}
