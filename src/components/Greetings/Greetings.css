@@ -1,7 +1,7 @@
 /******** TYPED TEXT ********/
 .typed-text {
   /* font-size: 2rem; */
-  color: var(--primary-orange);
+  color: var(--primary-white);
 }
 
 .main-info h1 {
@@ -9,5 +9,10 @@
 }
 
 .typed-text {
-  font-size: 1.3rem !important;
+  font-size: 1.6rem !important;
+}
+
+.greetings-name{
+  color: var(--primary-orange);
+  font-weight: 500;
 }
