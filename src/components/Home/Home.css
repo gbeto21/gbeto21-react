@@ -1,0 +1,8 @@
+.home-main-container{
+    color: var(--primary-white);
+    height: 100vh;
+}
+
+.container-background{
+     background-color: var(--primary-blue) !important;
+ }
