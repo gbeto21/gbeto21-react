@@ -13,6 +13,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-color: #eff0f1 !important;
 }
 
 .flex-fill {
@@ -141,7 +142,7 @@ nav ul li {
     margin-top: 5rem !important;
   }
 
-  .fa{
+  .fa {
     font-size: 1.5rem !important;
   }
 
@@ -156,7 +157,6 @@ nav ul li {
     height: 320px;
     width: 320px;
     margin: 0 0 0 4px;
-    box-shadow: 0 1px 0px 0px gold !important;
   }
 }
 
@@ -165,7 +165,6 @@ nav ul li {
     height: 320px;
     width: 320px;
     margin: 0 0 0 4px;
-    box-shadow: 0 1px 0px 0px aqua !important;
   }
 }
 
@@ -174,7 +173,6 @@ nav ul li {
     height: 320px;
     width: 320px;
     margin: 0 0 0 4px;
-    box-shadow: 0 1px 0px 0px brown !important;
   }
 }
 
@@ -183,7 +181,6 @@ nav ul li {
     height: 320px;
     width: 320px;
     margin: 0 0 0 4px;
-    box-shadow: 0 1px 0px 0px olive !important;
   }
 }
 
@@ -192,7 +189,6 @@ nav ul li {
     height: 320px;
     width: 320px;
     margin: 0 0 0 4px;
-    box-shadow: 0 1px 0px 0px purple !important;
   }
 }
 
@@ -231,6 +227,7 @@ nav ul li {
 
 .container-about {
   margin-top: 8rem;
+  background-color: var(--primary-gray);
 }
 
 .container-profile-picture {
