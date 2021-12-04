@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <Fragment>
-      <div className="container-background">
+      <div className="container-background-center">
         <div className="container">
           <div className="row row-cols-1 row-lg-cols-2">
             <div className="col col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">

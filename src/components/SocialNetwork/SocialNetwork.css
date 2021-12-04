@@ -1,0 +1,16 @@
+.social-network-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/******** ICONS ********/
+i {
+  color: orangered;
+  font-size: 2.3rem !important;
+  padding: 1.7rem;
+}
+
+i:hover {
+  transform: scale(1.5);
+}
