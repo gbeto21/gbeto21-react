@@ -1,0 +1,7 @@
+.introduction{
+    /* margin: 3rem 0rem; */
+    padding-top: 1.5rem;
+    /* border: 1px solid red; */
+    color: var(--primary-blue-light);
+    font-weight: 500;
+}

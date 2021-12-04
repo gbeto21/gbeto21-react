@@ -1,0 +1,7 @@
+.container-personal-info{
+    margin: .5rem 0rem;
+    color: var(--primary-blue-light);
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: .03rem;
+}
