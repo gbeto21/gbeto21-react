@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     position: relative;
-    width: 180px;
+    /* width: 180px; */
     margin: 10px 0 0;
+    border: 1px solid red;
 }
 
 .heading-separator{
@@ -12,17 +13,22 @@
     position: relative;
     width: 180px;
     margin: 10px 0 0 0;
+    border: 1px solid green;
 }
 
 .separator-line{
-    width: 100%;
+    width: 20% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     height: 2px;
     background-color: var(--primary-white);
 }
 
 .separator-blob{
     height: 10px;
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
     display: flex;
     justify-content: center;

@@ -14,7 +14,7 @@ const About = () => {
           <div className="row justify-content-md-center">
             <SocialNetwork />
           </div>
-          <div className="row justify-content-md-center">
+          <div className="row justify-content-center">
             <Separator />
           </div>
         </div>
