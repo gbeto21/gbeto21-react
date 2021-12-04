@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
-import Separator from "../Separator/Separator";
-import SocialNetwork from "../SocialNetwork/SocialNetwork";
-import ProfilePicture from "../ProfilePicture/ProfilePicture";
-import PersonalInfo from "../PersonalInfo/PersonalInfo";
-import Introduction from "../Introduction/Introduction";
+import Separator from "../../components/Separator/Separator";
+import SocialNetwork from "../../components/SocialNetwork/SocialNetwork";
+import ProfilePicture from "../../components/ProfilePicture/ProfilePicture";
+import PersonalInfo from "../../components/PersonalInfo/PersonalInfo";
+import Introduction from "../../components/Introduction/Introduction";
 
 const About = () => {
   return (

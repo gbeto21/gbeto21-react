@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import Greetings from "../Greetings/Greetings";
+import Greetings from "../../components/Greetings/Greetings";
 import { motion } from "framer-motion";
 import "./Home.css";
-import SwiperTech from "../SwiperTech/SwiperTech";
+import SwiperTech from "../../components/SwiperTech/SwiperTech";
 
 const Home = () => {
   const container = {
