@@ -1,28 +1,36 @@
-import React from 'react'
-import './Skills.css'
-import 'bootstrap/dist/css/bootstrap.css';
-import Tabs from 'react-bootstrap/Tabs';
-import Tab from 'react-bootstrap/Tab';
+import React from "react";
+import "./Skills.css";
+import "bootstrap/dist/css/bootstrap.css";
+import CardLanguages from "../../components/SkillsCards/Languages/Languages";
+import CardFrameworks from "../../components/SkillsCards/Frameworks/Frameworks";
+import CardDataBases from "../../components/SkillsCards/DataBases/DataBases";
+import CardDevOps from "../../components/SkillsCards/DevOps/DevOps";
+import CardCertifications from "../../components/SkillsCards/Certifications/Certifications";
 
 const Skills = () => {
-
-    return (
-        <div>
-            <div style={{ display: 'block', width: 700, padding: 30 }}>
-                <Tabs defaultActiveKey="first">
-                    <Tab eventKey="first" title="Dashboard">
-                        Hii, I am 1st tab content
-                    </Tab>
-                    <Tab eventKey="second" title="Setting">
-                        Hii, I am 2nd tab content
-                    </Tab>
-                    <Tab eventKey="third" title="Aboutus">
-                        Hii, I am 3rd tab content
-                    </Tab>
-                </Tabs>
-            </div>
+  return (
+    <div className="container-background-start">
+      <div className="container container-skills">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <CardLanguages />
+          </div>
+          <div class="col">
+            <CardFrameworks />
+          </div>
+          <div class="col">
+            <CardDataBases />
+          </div>
+          <div class="col">
+            <CardDevOps />
+          </div>
+          <div class="col">
+            <CardCertifications />
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Skills
+export default Skills;

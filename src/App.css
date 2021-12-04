@@ -235,3 +235,8 @@ nav ul li {
   align-items: center;
   justify-content: center;
 }
+
+.container-skills {
+  margin-top: 8rem;
+  background-color: var(--primary-gray);
+}
