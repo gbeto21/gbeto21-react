@@ -2,7 +2,8 @@
 
 :root {
   --primary-white: #fff;
-  --primary-orange: #dc592b;
+  --primary-geen: #81DB42;
+  /* --primary-orange: #dc592b; */
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: #24263b;
   --primary-blue-light: #2e3a52;
@@ -43,7 +44,7 @@ nav ul li {
 }
 
 .nav-title {
-  color: var(--primary-orange);
+  color: var(--primary-geen);
   font-weight: 500;
   margin-bottom: auto;
 }
@@ -56,7 +57,7 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-geen);
 }
 
 .navbar-nav > li > a:hover {
@@ -85,7 +86,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-orange);
+  color: var(--primary-geen);
   text-transform: uppercase;
 }
 
