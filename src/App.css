@@ -2,7 +2,7 @@
 
 :root {
   --primary-white: #fff;
-  --primary-geen: #81DB42;
+  --primary-geen: #81db42;
   /* --primary-orange: #dc592b; */
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: #24263b;
@@ -130,6 +130,72 @@ nav ul li {
   }
 }
 
+@media (max-width: 574.98px) {
+  .profile-picture {
+    height: 10rem !important;
+    width: 10rem !important;
+    margin: 0 !important;
+  }
+
+  .container-about {
+    margin-top: 5rem !important;
+  }
+
+  .fa{
+    font-size: 1.5rem !important;
+  }
+
+  i {
+    padding: 0.5rem !important;
+    margin: 1.2rem 0rem;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+    box-shadow: 0 1px 0px 0px gold !important;
+  }
+}
+
+@media (min-width: 767.98px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+    box-shadow: 0 1px 0px 0px aqua !important;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+    box-shadow: 0 1px 0px 0px brown !important;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+    box-shadow: 0 1px 0px 0px olive !important;
+  }
+}
+
+@media (min-width: 1399.98px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+    box-shadow: 0 1px 0px 0px purple !important;
+  }
+}
+
 .container-background-center {
   color: var(--primary-white);
   background-color: var(--primary-blue-light) !important;
@@ -161,4 +227,14 @@ nav ul li {
   align-items: center;
   text-align: left;
   z-index: 1;
+}
+
+.container-about {
+  margin-top: 8rem;
+}
+
+.container-profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

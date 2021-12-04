@@ -17,7 +17,7 @@
 }
 
 .separator-line{
-    width: 20% !important;
+    width: 10rem !important;
     display: flex;
     align-items: center;
     justify-content: center;

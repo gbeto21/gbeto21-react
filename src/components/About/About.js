@@ -7,10 +7,13 @@ const About = () => {
   return (
     <Fragment>
       <div className="container-background-start">
-        <div className="container">
-          <div className="row justify-content-center">
+        <div className="container container-about">
+          <div className="container-profile-picture">
             <ProfilePicture />
           </div>
+          {/* <div className="row justify-content-center">
+              <ProfilePicture />
+            </div> */}
           <div className="row justify-content-md-center">
             <SocialNetwork />
           </div>
