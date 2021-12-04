@@ -6,9 +6,9 @@
   /* --primary-orange: #dc592b; */
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: #24263b;
-  --primary-blue-light: #2e3a52;
+  --primary-blue-light: #234261;
   --primary-green-light: #859e51;
-  --primary-gray: #f0f2f5;
+  --primary-gray: #eff0f1;
 }
 
 body {
@@ -147,8 +147,9 @@ nav ul li {
 }
 
 .container-background-start {
-  color: var(--primary-white);
-  background-color: var(--primary-blue-light) !important;
+  /* color: var(--primary-white); */
+  /* background-color: var(--primary-blue-light) !important; */
+  background-color: var(--primary-gray);
   display: flex;
   position: absolute;
   top: 0;

@@ -23,7 +23,9 @@
     justify-content: center;
     position: relative;
     height: 2px;
-    background-color: var(--primary-white);
+    /* background-color: #81DB42; */
+    /* var(--primary-green); */
+    background-color: var(--primary-blue-light);
 }
 
 .separator-blob{
@@ -37,5 +39,6 @@
 .separator-blob div{
     width: 35px;
     border-radius: 10px;
-    background-color: var(--primary-geen);
+    background-color: #81DB42;
+    /* Por alguna razón no toma la variable verde  */
 }
