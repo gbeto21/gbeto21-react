@@ -1,17 +1,9 @@
 import React from "react";
+import BaseCard from "../BaseCard/BaseCard";
+import devops from "./devopsData.json";
 
 const CardDevOps = () => {
-  return (
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">DevOps</h5>
-        <p className="card-text">
-          This is a longer card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </p>
-      </div>
-    </div>
-  );
+  return <BaseCard data={devops.data} title="DevOps" />;
 };
 
 export default CardDevOps;

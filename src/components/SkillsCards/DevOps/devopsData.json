@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "number": 1,
+      "name": "Docker",
+      "level": "Intermediate",
+      "image": "/images/docker.svg",
+      "classCSS": "python"
+    },
+    {
+      "number": 2,
+      "name": "Kubernetes",
+      "level": "Intermediate",
+      "image": "/images/kubernetes.svg",
+      "classCSS": "python"
+    },
+    {
+      "number": 3,
+      "name": "Jenkins",
+      "level": "basic",
+      "image": "/images/jenkins.svg",
+      "classCSS": "python"
+    },
+    {
+      "number": 4,
+      "name": "Travis",
+      "level": "Basic",
+      "image": "/images/travis.svg",
+      "classCSS": "python"
+    }
+  ]
+}
