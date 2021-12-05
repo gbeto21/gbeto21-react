@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "number": 1,
+      "name": "Node",
+      "level": "Advanced",
+      "image": "/images/node.svg",
+      "classCSS": "python"
+    },
+    {
+      "number": 2,
+      "name": "Express",
+      "level": "Advanced",
+      "image": "/images/express.svg",
+      "classCSS": "python"
+    },
+    {
+      "number": 3,
+      "name": "React",
+      "level": "Advanced",
+      "image": "/images/react.svg",
+      "classCSS": "python"
+    },
+    {
+      "number": 4,
+      "name": "Angular",
+      "level": "Intermediate",
+      "image": "/images/angular.svg",
+      "classCSS": "python"
+    }
+  ]
+}
