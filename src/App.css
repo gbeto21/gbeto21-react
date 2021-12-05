@@ -2,10 +2,10 @@
 
 :root {
   --primary-white: #fff;
-  /* --primary-geen: #81db42; */
+  /* --primary-green: #81db42; */
   /* --green:#81db42; */
-  --primary-geen: #40977B;
-  --geen: #40977B;
+  --primary-green: #40977B;
+  --green: #40977B;
   /* --primary-orange: #dc592b; */
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: #24263b;
@@ -48,7 +48,7 @@ nav ul li {
 }
 
 .nav-title {
-  color: var(--primary-geen);
+  color: var(--primary-green);
   font-weight: 500;
   margin-bottom: auto;
 }
@@ -61,7 +61,7 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-geen);
+  border-top: 0.1875rem solid var(--primary-green);
 }
 
 .navbar-nav > li > a:hover {
@@ -90,7 +90,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-geen);
+  color: var(--primary-green);
   text-transform: uppercase;
 }
 

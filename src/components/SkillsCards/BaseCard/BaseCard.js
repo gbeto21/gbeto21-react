@@ -9,7 +9,12 @@ const BaseCard = ({ data, title }) => {
   return (
     <div className="card">
       <div className="card-body">
-        <h5 className="card-header">{title}</h5>
+        <h5
+          className="card-header"
+          style={{ color: "var(--primary-blue-light)", fontWeight: "500" }}
+        >
+          {title}
+        </h5>
         <ul className="list-group list-group-flush">{items}</ul>
       </div>
     </div>
