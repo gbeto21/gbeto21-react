@@ -6,28 +6,28 @@
 .item-js {
   width: 6.25rem;
   height: 6.25rem;
-  background: url(../../icons/JavaScript.svg) no-repeat;
+  background: url(/images/JavaScript.svg) no-repeat;
 }
 
 .item-nd {
   margin-top: 1.5rem;
   width: 10rem;
   height: 5.563rem;
-  background: url(../../icons/node.svg) no-repeat;
+  background: url(/images/node.svg) no-repeat;
 }
 
 .item-ex {
   margin-top: 2rem;
   width: 7.3rem;
   height: 5.563rem;
-  background: url(../../icons/express.svg) no-repeat;
+  background: url(/images/express.svg) no-repeat;
 }
 
 .item-rt {
   width: 7.563rem;
   height: 5.563rem;
   margin-top: 1.6rem;
-  background: url(../../icons/react.svg) no-repeat;
+  background: url(/images/react.svg) no-repeat;
 }
 
 .item-ts {
@@ -35,7 +35,7 @@
   margin-top: 1.6rem;
   width: 5.563rem;
   height: 5.563rem;
-  background: url(../../icons/typescript.svg) no-repeat;
+  background: url(/images/typescript.svg) no-repeat;
 }
 
 .item-aw {
@@ -43,7 +43,7 @@
   width: 7rem;
   height: 5.563rem;
   margin-left: 0;
-  background: url(../../icons/aws.svg) no-repeat;
+  background: url(/images/aws.svg) no-repeat;
 }
 
 .item-gh {
@@ -51,7 +51,7 @@
   width: 7.3rem;
   height: 5.563rem;
   margin-left: 0;
-  background: url(../../icons/github.svg) no-repeat;
+  background: url(/images/github.svg) no-repeat;
 }
 
 .item-sl {
@@ -59,7 +59,7 @@
   width: 7.3rem;
   height: 5.563rem;
   margin-left: 0;
-  background: url(../../icons/serverless.svg) no-repeat;
+  background: url(/images/serverless.svg) no-repeat;
 }
 
 .item-cs {
@@ -68,7 +68,7 @@
   width: 5rem;
   height: 5rem;
   margin-left: 0;
-  background: url(../../icons/cs.svg) no-repeat;
+  background: url(/images/cs.svg) no-repeat;
   background-size: 3.5rem;
 }
 

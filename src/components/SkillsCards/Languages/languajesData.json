@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "number": 1,
+      "name": "JavaScript",
+      "level": "Advanced",
+      "image": "/images/JavaScript.svg"
+    },
+    {
+      "number": 2,
+      "name": "C#",
+      "level": "Intermediate",
+      "image": "/images/cs.svg"
+    }
+  ]
+}

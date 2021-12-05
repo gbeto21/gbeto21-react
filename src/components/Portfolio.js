@@ -19,7 +19,7 @@ const Portfolio = () => {
     return (
         <div>
             <DropdownMultiselect handleOnChange={onChange} options={optionsArray} name="countries" />
-            <button type="button" class="btn btn-outline-success">Search</button>
+            <button type="button" className="btn btn-outline-success">Search</button>
         </div>
     )
 }

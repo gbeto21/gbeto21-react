@@ -39,6 +39,6 @@
 .separator-blob div{
     width: 35px;
     border-radius: 10px;
-    background-color: #81DB42;
+    background-color: var(--green);
     /* Por alguna razón no toma la variable verde  */
 }

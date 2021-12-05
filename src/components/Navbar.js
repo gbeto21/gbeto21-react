@@ -13,7 +13,7 @@ const Navbar = () => {
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                    <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
                             <NavLink className="nav-link" to="/">Home</NavLink>
                         </li>

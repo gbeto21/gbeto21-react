@@ -1,0 +1,8 @@
+.card-title {
+  /* color: var(--green); */
+  color: #40977B;
+}
+
+.card-header{
+  color: var(--primary-blue-light);
+}

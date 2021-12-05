@@ -2,7 +2,10 @@
 
 :root {
   --primary-white: #fff;
-  --primary-geen: #81db42;
+  /* --primary-geen: #81db42; */
+  /* --green:#81db42; */
+  --primary-geen: #40977B;
+  --geen: #40977B;
   /* --primary-orange: #dc592b; */
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: #24263b;
