@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div className="container-background-start">
       <div className="container container-skills">
-        <div className="row row-cols-1 row-cols-md-4 g-4">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-4 g-4">
           <div className="col">
             <CardLanguages />
           </div>
