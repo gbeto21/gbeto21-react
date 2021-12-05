@@ -5,28 +5,28 @@
       "name": "JavaScript",
       "level": "Advanced",
       "image": "/images/js.svg",
-      "classCSS": "javascript"
+      "classCSS": "square-shape"
     },
     {
       "number": 2,
       "name": "C#",
       "level": "Intermediate",
       "image": "/images/cs.svg",
-      "classCSS": "csharp"
+      "classCSS": "square-shape"
     },
     {
       "number": 3,
       "name": "Java",
       "level": "Intermediate",
       "image": "/images/java.svg",
-      "classCSS": "java"
+      "classCSS": "horizontal-shape"
     },
     {
       "number": 4,
       "name": "Python",
       "level": "Basic",
       "image": "/images/python.svg",
-      "classCSS": "python"
+      "classCSS": "horizontal-shape"
     }
   ]
 }

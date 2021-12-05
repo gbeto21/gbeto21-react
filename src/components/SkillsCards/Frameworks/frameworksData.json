@@ -5,28 +5,28 @@
       "name": "Node",
       "level": "Advanced",
       "image": "/images/node.svg",
-      "classCSS": "python"
+      "classCSS": "horizontal-shape"
     },
     {
       "number": 2,
       "name": "Express",
       "level": "Advanced",
       "image": "/images/express.svg",
-      "classCSS": "python"
+      "classCSS": "horizontal-shape"
     },
     {
       "number": 3,
       "name": "React",
       "level": "Advanced",
       "image": "/images/react.svg",
-      "classCSS": "python"
+      "classCSS": "horizontal-shape"
     },
     {
       "number": 4,
       "name": "Angular",
       "level": "Intermediate",
       "image": "/images/angular.svg",
-      "classCSS": "python"
+      "classCSS": "horizontal-shape"
     }
   ]
 }

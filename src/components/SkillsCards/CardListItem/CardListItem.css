@@ -20,22 +20,17 @@
   align-items: center;
 }
 
-.javascript {
+.square-shape {
   height: 2rem;
   width: 2rem;
 }
 
-.csharp {
-  height: 2rem;
-  width: 2rem;
-}
-
-.java {
-  height: 2rem;
-  width: 4rem;
-}
-
-.python {
+.horizontal-shape {
   height: 2rem;
   width: 4.8rem;
+}
+
+.square-shape3 {
+  height: 3rem;
+  width: 3rem;
 }

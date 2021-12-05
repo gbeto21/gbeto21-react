@@ -5,28 +5,28 @@
       "name": "SQL Server",
       "level": "Intermediate",
       "image": "/images/sqlserver.svg",
-      "classCSS": "csharp"
+      "classCSS": "square-shape3"
     },
     {
       "number": 2,
       "name": "MySQL",
       "level": "Intermediate",
       "image": "/images/mysql.svg",
-      "classCSS": "python"
+      "classCSS": "horizontal-shape"
     },
     {
       "number": 3,
       "name": "PostgreSQL",
       "level": "Intermediate",
       "image": "/images/postgresql.svg",
-      "classCSS": "python"
+      "classCSS": "horizontal-shape"
     },
     {
       "number": 4,
       "name": "MongoDB",
       "level": "Basic",
       "image": "/images/mongo.svg",
-      "classCSS": "python"
+      "classCSS": "horizontal-shape"
     }
   ]
 }

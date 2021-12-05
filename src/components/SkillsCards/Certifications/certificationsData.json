@@ -5,21 +5,21 @@
       "name": "Cloud Developer Nanodegree",
       "level": "November, 2021",
       "image": "/images/udacity.svg",
-      "classCSS": "csharp"
+      "classCSS": "square-shape"
     },
     {
       "number": 2,
-      "name": "AWS Certified Developer Associate",
+      "name": "AWS Certified Developer",
       "level": "August, 2021",
       "image": "/images/awsdeveloper.png",
-      "classCSS": "csharp"
+      "classCSS": "square-shape3"
     },
     {
       "number": 3,
       "name": "AWS Certified Cloud Practitioner",
       "level": "June, 2021",
       "image": "/images/awspractitioner.png",
-      "classCSS": "csharp"
+      "classCSS": "square-shape3"
     }
   ]
 }
