@@ -5,8 +5,11 @@ import "./Greetings.css";
 const Greetings = () => {
   const stringTyping = [
     `Computer system engineer ⚙️`,
-    "Full stack developer 🌐", 
-    "AWS Certified Developer ☁️"
+    "Full stack developer 🌐",
+    "AWS Certified Developer ☁️",
+    "Mastering Node 🎓",
+    `Basketball player in the Monos team 🏀🐒`,
+    "Guitar learner 🎸",
   ];
 
   return (
