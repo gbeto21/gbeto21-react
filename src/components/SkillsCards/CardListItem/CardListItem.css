@@ -1,0 +1,39 @@
+.list-group-item {
+  padding: 0;
+}
+
+.card-title {
+  padding: 0;
+  margin: 0;
+}
+
+.card-body {
+  padding-top: 0.563rem;
+  padding-bottom: 0.063rem;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.javascript {
+  height: 2rem;
+  width: 2rem;
+}
+
+.csharp {
+  height: 2rem;
+  width: 2rem;
+}
+
+.java {
+  height: 2rem;
+  width: 4rem;
+}
+
+.python {
+  height: 2rem;
+  width: 4rem;
+}
