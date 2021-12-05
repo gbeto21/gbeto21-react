@@ -15,11 +15,11 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("https://gbeto21-api.herokuapp.com/images/me.jpg");
+  background-image: url("/images/profile.jpg");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   max-height: 16rem;
   max-width: 16rem;
   min-width: 3rem;
