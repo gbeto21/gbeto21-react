@@ -1,9 +1,14 @@
 import React from "react";
 import CardListItem from "../CardListItem/CardListItem";
 
-const BaseCard = ({ data, title }) => {
+const BaseCard = ({ data, title, sizeColImage, sizeColBody }) => {
   const items = data.map((item) => (
-    <CardListItem key={item.number} item={item} />
+    <CardListItem
+      key={item.number}
+      item={item}
+      sizeColImage={sizeColImage}
+      sizeColBody={sizeColBody}
+    />
   ));
 
   return (

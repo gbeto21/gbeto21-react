@@ -4,7 +4,12 @@ import certifications from "./certificationsData.json";
 
 const CardCertifications = () => {
   return (
-    <BaseCard data={certifications.data} title="Licenses & certifications" />
+    <BaseCard
+      sizeColImage={3}
+      sizeColBody={9}
+      data={certifications.data}
+      title="Licenses & certifications"
+    />
   );
 };
 
