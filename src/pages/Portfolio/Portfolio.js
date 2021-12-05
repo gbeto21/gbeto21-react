@@ -1,5 +1,6 @@
 import React from "react";
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
+import './Portfolio.css'
 
 const Portfolio = () => {
   const optionsArray = [

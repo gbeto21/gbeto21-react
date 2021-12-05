@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import About from './pages/About/About';
 import Home from './pages/Home/Home';
 import Skills from './pages/Skills/Skills';
-import Portfolio from './components/Portfolio';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 function App() {
 
