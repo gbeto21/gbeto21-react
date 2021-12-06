@@ -3,7 +3,7 @@ import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
 import "./Portfolio.css";
 import { useQuery, gql } from "@apollo/client";
 
-const queryTechnologies = gql`
+const queryTechnologys = gql`
   query {
     technologys {
       _id
@@ -26,7 +26,7 @@ const onChange = (selected) => {
 };
 
 const Portfolio = () => {
-  const { data, loading, error } = useQuery(queryTechnologies);
+  const { data, loading, error } = useQuery(queryTechnologys);
 
   if (loading) return "Loading...";
 
