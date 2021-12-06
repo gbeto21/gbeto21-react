@@ -46,10 +46,7 @@ const DropDownMultiSelectTechnologys = ({ onChange }) => {
       </div>
     );
 
-  console.log("Data: ", data);
-
   const technologys = generateTechnologys(data.technologys);
-  console.log("Technologys", technologys);
 
   return (
     <DropdownMultiselect
