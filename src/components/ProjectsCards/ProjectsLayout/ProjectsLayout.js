@@ -4,7 +4,7 @@ import "./ProjectsLayout.css";
 const ProjectsLayout = ({ projects }) => {
   const projectsCards = projects.map((project) => {
     return (
-      <div className="col" id={project._id}>
+      <div className="col pl-0" id={project._id}>
         <div className="card h-100">
           <div className="card-header">{project.name}</div>
           <img
@@ -12,7 +12,7 @@ const ProjectsLayout = ({ projects }) => {
             className="card-img-top"
             alt={project.name}
           />
-          <div className="card-body">
+          <div className="card-body container-card-body">
             <p className="card-text">{project.description}</p>
             {project.url && (
               <a href={project.url} className="btn mb-2 btn-visit">

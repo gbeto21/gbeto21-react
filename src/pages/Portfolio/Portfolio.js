@@ -17,7 +17,7 @@ const Portfolio = () => {
 
   return (
     <div className="container-background-start">
-      <div className="container container-skills">
+      <div className="container container-skills pl-2">
         <SearchTechnologys onChange={onChange} onSearch={onSearch} />
         <ProjectsPortfolio technologys={technologys} />
       </div>
