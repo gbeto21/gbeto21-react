@@ -5,10 +5,10 @@ import ButtonSearchProject from "../ButtonSearchProjects/ButtonSearchProject";
 const SearchTechnologys = ({ onChange, onSearch }) => {
   return (
     <div className="row row-cols-2">
-      <div className="col-10">
+      <div className="col-9">
         <DropDownMultiSelectTechnologys onChange={onChange} />
       </div>
-      <div className="col-2">
+      <div className="col-3 pl-1">
         <ButtonSearchProject onSearch={onSearch} />
       </div>
     </div>

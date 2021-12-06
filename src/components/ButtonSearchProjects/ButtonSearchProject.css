@@ -1,3 +1,7 @@
+.btn {
+  /* padding: 0.375rem 0; */
+}
+
 .btn-outline-success {
   color: var(--primary-white);
   border-color: var(--primary-white);
