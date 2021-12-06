@@ -1,0 +1,13 @@
+.btn-visit {
+  color: var(--primary-green) ;
+  border-color: var(--primary-green);
+  background-color: var(--primary-white);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  text-align: left;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import ErrorAlert from "../ErrorAlert/ErrorAlert";
+import ProjectsLayout from "../ProjectsCards/ProjectsLayout/ProjectsLayout";
 import { useQuery, gql } from "@apollo/client";
 import Spinner from "../Spinner/Spinner";
 
@@ -37,18 +38,25 @@ const ProjectsPortfolio = ({ technologys }) => {
   const { data, loading, error } = useQuery(queryProjects);
 
   if (technologys.length) {
-    if (loading) return <Spinner message="Loading" />;
+    if (loading)
+      return (
+        <div className="row row-cols-2">
+          <Spinner message="Loading" />;
+        </div>
+      );
 
     if (error)
       return (
-        <ErrorAlert
-          message="Error fetching the technologyes."
-          details={error.message}
-        />
+        <div className="row row-cols-2">
+          <ErrorAlert
+            message="Error fetching the projects."
+            details={error.message}
+          />
+        </div>
       );
     console.log("Data on Projects:", data);
 
-    return <div>Searching.</div>;
+    return <ProjectsLayout projects={data.projects} />;
   }
   return <div></div>;
 };
