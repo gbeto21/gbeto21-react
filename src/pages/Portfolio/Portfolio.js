@@ -5,20 +5,15 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
   const [technologys, setTechnologys] = useState([]);
-  let technologysParams = [];
 
   const onChange = (selected) => {
-    technologysParams = selected;
-  };
-
-  const onSearch = () => {
-    setTechnologys(technologysParams);
+    setTechnologys(selected);
   };
 
   return (
     <div className="container-background-start">
-      <div className="container container-skills pl-2">
-        <SearchTechnologys onChange={onChange} onSearch={onSearch} />
+      <div className="container container-portfolio pl-2">
+        <SearchTechnologys onChange={onChange} />
         <ProjectsPortfolio technologys={technologys} />
       </div>
     </div>

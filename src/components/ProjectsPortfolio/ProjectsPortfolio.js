@@ -54,7 +54,6 @@ const ProjectsPortfolio = ({ technologys }) => {
           />
         </div>
       );
-    console.log("Data on Projects:", data);
 
     return <ProjectsLayout projects={data.projects} />;
   }

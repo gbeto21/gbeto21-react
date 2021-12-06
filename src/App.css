@@ -243,3 +243,8 @@ nav ul li {
   margin-top: 8rem;
   background-color: var(--primary-gray);
 }
+
+.container-portfolio {
+  margin-top: 8rem;
+  background-color: var(--primary-gray);
+}
