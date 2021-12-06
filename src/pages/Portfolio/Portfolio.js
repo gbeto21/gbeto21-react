@@ -10,16 +10,7 @@ const Portfolio = () => {
   return (
     <div className="container-background-start">
       <div className="container container-skills">
-        <div className="row row-cols-2">
-          <div className="col-10">
-            <SearchTechnologys onChange={onChange} />
-          </div>
-          <div className="col-2">
-            <button type="button" className="btn btn-outline-success">
-              Search
-            </button>
-          </div>
-        </div>
+        <SearchTechnologys onChange={onChange} />
       </div>
     </div>
   );

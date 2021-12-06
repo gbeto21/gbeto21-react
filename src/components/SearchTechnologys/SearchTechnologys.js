@@ -1,45 +1,18 @@
 import React from "react";
-import { useQuery, gql } from "@apollo/client";
-import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
-import "./SearchTechnologys.css";
-
-const queryTechnologys = gql`
-  query {
-    technologys {
-      _id
-      name
-    }
-  }
-`;
-
-const generateTechnologys = (data) => {
-  const technologys = data.map((technology) => {
-    return {
-      key: `${technology._id},${technology.name}`,
-      label: technology.name,
-    };
-  });
-  return technologys;
-};
+import DropDownMultiSelectTechnologys from "../DropDownMultiSelectTechnologys/DropDownMultiSelectTechnologys";
 
 const SearchTechnologys = ({ onChange }) => {
-  const { data, loading, error } = useQuery(queryTechnologys);
-
-  if (loading) return "Loading...";
-
-  if (error) return <pre>{error.message}</pre>;
-
-  console.log("Data: ", data);
-
-  const technologys = generateTechnologys(data.technologys);
-  console.log("Technologys", technologys);
-
   return (
-    <DropdownMultiselect
-      handleOnChange={onChange}
-      options={technologys}
-      name="technologys"
-    />
+    <div className="row row-cols-2">
+      <div className="col-10">
+        <DropDownMultiSelectTechnologys onChange={onChange} />
+      </div>
+      <div className="col-2">
+        <button type="button" className="btn btn-outline-success">
+          Search
+        </button>
+      </div>
+    </div>
   );
 };
 
