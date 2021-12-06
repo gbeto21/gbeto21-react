@@ -1,6 +1,7 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
+import Spinner from "../Spinner/Spinner";
 import "./DropDownMultiSelectTechnologys.css";
 
 const queryTechnologys = gql`
@@ -25,14 +26,7 @@ const generateTechnologys = (data) => {
 const DropDownMultiSelectTechnologys = ({ onChange }) => {
   const { data, loading, error } = useQuery(queryTechnologys);
 
-  if (loading)
-    return (
-      <div className="d-flex justify-content-center">
-        <div className="spinner-border" role="status">
-          <span className="visually-hidden">Loading...</span>
-        </div>
-      </div>
-    );
+  if (loading) return <Spinner message="Loading" />;
 
   if (error)
     return (

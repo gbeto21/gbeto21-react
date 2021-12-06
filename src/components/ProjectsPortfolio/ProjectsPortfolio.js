@@ -1,5 +1,6 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
+import Spinner from "../Spinner/Spinner";
 
 const createqueryProjects = (technologys) => {
   if (technologys) {
@@ -35,14 +36,7 @@ const ProjectsPortfolio = ({ technologys }) => {
   const { data, loading, error } = useQuery(queryProjects);
 
   if (technologys.length) {
-    if (loading)
-      return (
-        <div className="d-flex justify-content-center">
-          <div className="spinner-border" role="status">
-            <span className="visually-hidden">Loading...</span>
-          </div>
-        </div>
-      );
+    if (loading) return <Spinner message="Loading" />;
 
     if (error)
       return (
