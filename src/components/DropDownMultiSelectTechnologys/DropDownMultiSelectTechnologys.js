@@ -1,6 +1,7 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
+import ErrorAlert from "../ErrorAlert/ErrorAlert";
 import Spinner from "../Spinner/Spinner";
 import "./DropDownMultiSelectTechnologys.css";
 
@@ -30,14 +31,10 @@ const DropDownMultiSelectTechnologys = ({ onChange }) => {
 
   if (error)
     return (
-      <div>
-        <div class="alert alert-danger" role="alert">
-          <h4 class="alert-heading">Error</h4>
-          <p>Error loading the technologys.</p>
-          <hr />
-          <p class="mb-0">{error.message}</p>
-        </div>
-      </div>
+      <ErrorAlert
+        message="Error fetching the technologyes."
+        details={error.message}
+      />
     );
 
   const technologys = generateTechnologys(data.technologys);

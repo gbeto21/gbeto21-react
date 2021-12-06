@@ -1,4 +1,5 @@
 import React from "react";
+import ErrorAlert from "../ErrorAlert/ErrorAlert";
 import { useQuery, gql } from "@apollo/client";
 import Spinner from "../Spinner/Spinner";
 
@@ -40,14 +41,10 @@ const ProjectsPortfolio = ({ technologys }) => {
 
     if (error)
       return (
-        <div>
-          <div class="alert alert-danger" role="alert">
-            <h4 class="alert-heading">Error</h4>
-            <p>Error loading the technologys.</p>
-            <hr />
-            <p class="mb-0">{error.message}</p>
-          </div>
-        </div>
+        <ErrorAlert
+          message="Error fetching the technologyes."
+          details={error.message}
+        />
       );
     console.log("Data on Projects:", data);
 
