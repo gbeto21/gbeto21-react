@@ -25,9 +25,26 @@ const generateTechnologys = (data) => {
 const DropDownMultiSelectTechnologys = ({ onChange }) => {
   const { data, loading, error } = useQuery(queryTechnologys);
 
-  if (loading) return "Loading...";
+  if (loading)
+    return (
+      <div className="d-flex justify-content-center">
+        <div className="spinner-border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    );
 
-  if (error) return <pre>{error.message}</pre>;
+  if (error)
+    return (
+      <div>
+        <div class="alert alert-danger" role="alert">
+          <h4 class="alert-heading">Error</h4>
+          <p>Error loading the technologys.</p>
+          <hr />
+          <p class="mb-0">{error.message}</p>
+        </div>
+      </div>
+    );
 
   console.log("Data: ", data);
 
