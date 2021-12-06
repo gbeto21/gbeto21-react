@@ -1,6 +1,7 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
+import "./SearchTechnologys.css";
 
 const queryTechnologys = gql`
   query {
