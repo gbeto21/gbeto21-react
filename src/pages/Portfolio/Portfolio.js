@@ -4,23 +4,22 @@ import ProjectsPortfolio from "../../components/ProjectsPortfolio/ProjectsPortfo
 import "./Portfolio.css";
 
 const Portfolio = () => {
-  const [search, setSearch] = useState(false);
   const [technologys, setTechnologys] = useState([]);
+  let technologysParams = [];
 
   const onChange = (selected) => {
-    setTechnologys(selected);
+    technologysParams = selected;
   };
 
   const onSearch = () => {
-    console.log("Searching.", technologys);
-    setSearch(true);
+    setTechnologys(technologysParams);
   };
 
   return (
     <div className="container-background-start">
       <div className="container container-skills">
         <SearchTechnologys onChange={onChange} onSearch={onSearch} />
-        <ProjectsPortfolio search={search} />
+        <ProjectsPortfolio technologys={technologys} />
       </div>
     </div>
   );
