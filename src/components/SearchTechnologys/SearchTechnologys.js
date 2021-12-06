@@ -1,16 +1,15 @@
 import React from "react";
 import DropDownMultiSelectTechnologys from "../DropDownMultiSelectTechnologys/DropDownMultiSelectTechnologys";
+import ButtonSearchProject from "../ButtonSearchProjects/ButtonSearchProject";
 
-const SearchTechnologys = ({ onChange }) => {
+const SearchTechnologys = ({ onChange, onSearch }) => {
   return (
     <div className="row row-cols-2">
       <div className="col-10">
         <DropDownMultiSelectTechnologys onChange={onChange} />
       </div>
       <div className="col-2">
-        <button type="button" className="btn btn-outline-success">
-          Search
-        </button>
+        <ButtonSearchProject onSearch={onSearch} />
       </div>
     </div>
   );
