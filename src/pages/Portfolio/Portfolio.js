@@ -1,21 +1,38 @@
 import React from "react";
 import DropdownMultiselect from "react-multiselect-dropdown-bootstrap";
-import './Portfolio.css'
+import "./Portfolio.css";
+import { useQuery, gql } from "@apollo/client";
+
+const queryTechnologies = gql`
+  query {
+    technologys {
+      _id
+      name
+    }
+  }
+`;
+
+const optionsArray = [
+  { key: "au", label: "Australia" },
+  { key: "ca", label: "Canada" },
+  { key: "us", label: "USA" },
+  { key: "pl", label: "Poland" },
+  { key: "es", label: "Spain" },
+  { key: "fr", label: "France" },
+];
+
+const onChange = (selected) => {
+  console.log(selected);
+};
 
 const Portfolio = () => {
-  const optionsArray = [
-    { key: "au", label: "Australia" },
-    { key: "ca", label: "Canada" },
-    { key: "us", label: "USA" },
-    { key: "pl", label: "Poland" },
-    { key: "es", label: "Spain" },
-    { key: "fr", label: "France" },
-  ];
+  const { data, loading, error } = useQuery(queryTechnologies);
 
-  const onChange = (selected) => {
-    console.log(selected);
-  };
+  if (loading) return "Loading...";
 
+  if (error) return <pre>{error.message}</pre>;
+
+  console.log("Data: ", data);
   return (
     <div className="container-background-start">
       <div className="container container-skills">
