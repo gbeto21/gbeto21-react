@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import AnimationAppear from "../../animations/Appear";
 import "./Greetings.css";
 
 const Greetings = () => {
@@ -13,7 +14,7 @@ const Greetings = () => {
   ];
 
   return (
-    <div>
+    <AnimationAppear>
       <div className="align-items-end">
         <p className="fs-4 mb-0">Welcome!</p>
       </div>
@@ -33,7 +34,7 @@ const Greetings = () => {
           loop
         />
       </div>
-    </div>
+    </AnimationAppear>
   );
 };
 
