@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Skills from "./pages/Skills/Skills";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   let routes = (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/about" element={<About />} exact />
       <Route path="/skills" element={<Skills />} exact />
       <Route path="/portfolio" element={<Portfolio />} exact />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 
