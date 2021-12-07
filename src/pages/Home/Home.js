@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
+import "./Home.css";
 import Greetings from "../../components/Greetings/Greetings";
 import SwiperTech from "../../components/SwiperTech/SwiperTech";
 import WavesHome from "../../components/Waves/Home/WavesHome";
-import "./Home.css";
 
 const Home = () => {
   return (
