@@ -3,28 +3,28 @@
     {
       "number": 1,
       "name": "Node",
-      "level": "Advanced",
+      "level": "Intermediate",
       "image": "/images/node.svg",
       "classCSS": "horizontal-shape"
     },
     {
       "number": 2,
       "name": "Express",
-      "level": "Advanced",
+      "level": "Intermediate",
       "image": "/images/express.svg",
       "classCSS": "horizontal-shape"
     },
     {
       "number": 3,
       "name": "React",
-      "level": "Advanced",
+      "level": "Intermediate",
       "image": "/images/react.svg",
       "classCSS": "horizontal-shape"
     },
     {
       "number": 4,
       "name": "Angular",
-      "level": "Intermediate",
+      "level": "Basic",
       "image": "/images/angular.svg",
       "classCSS": "horizontal-shape"
     }
