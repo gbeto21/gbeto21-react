@@ -4,8 +4,8 @@
   --primary-white: #fff;
   /* --primary-green: #81db42; */
   /* --green:#81db42; */
-  --primary-green: #40977B;
-  --green: #40977B;
+  --primary-green: #40977b;
+  --green: #40977b;
   /* --primary-orange: #dc592b; */
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: #24263b;
@@ -225,6 +225,37 @@ nav ul li {
   justify-content: flex-start;
   align-items: center;
   text-align: left;
+  z-index: 1;
+}
+
+.container-background-end {
+  /* color: var(--primary-white); */
+  /* background-color: var(--primary-blue-light) !important; */
+  background-color: var(--primary-gray);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
+  z-index: 1;
+  margin-top: 8rem;
+}
+
+.container-waves {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
   z-index: 1;
 }
 
