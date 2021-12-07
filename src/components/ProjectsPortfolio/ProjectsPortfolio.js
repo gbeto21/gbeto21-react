@@ -59,7 +59,7 @@ const ProjectsPortfolio = ({ technologys }) => {
   }
   return (
     <p className="d-flex mt-3 justify-content-center fs-5">
-      Please select a item.
+      Please select an item.
     </p>
   );
 };
