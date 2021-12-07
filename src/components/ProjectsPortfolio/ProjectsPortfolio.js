@@ -57,7 +57,9 @@ const ProjectsPortfolio = ({ technologys }) => {
 
     return <ProjectsLayout projects={data.projects} />;
   }
-  return <div></div>;
+  return (
+    <p className="d-flex mt-3 justify-content-center fs-5">Please select a item.</p>
+  );
 };
 
 export default ProjectsPortfolio;
