@@ -41,7 +41,7 @@ const ProjectsPortfolio = ({ technologys }) => {
     if (loading)
       return (
         <div className="row row-cols-2">
-          <Spinner message="Loading" />;
+          <Spinner message="Loading" />
         </div>
       );
 
@@ -58,7 +58,9 @@ const ProjectsPortfolio = ({ technologys }) => {
     return <ProjectsLayout projects={data.projects} />;
   }
   return (
-    <p className="d-flex mt-3 justify-content-center fs-5">Please select a item.</p>
+    <p className="d-flex mt-3 justify-content-center fs-5">
+      Please select a item.
+    </p>
   );
 };
 
