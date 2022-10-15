@@ -8,7 +8,7 @@ const CardCertifications = () => {
       sizeColImage={3}
       sizeColBody={9}
       data={certifications.data}
-      title="Licenses & certifications"
+      title="Certifications"
     />
   );
 };

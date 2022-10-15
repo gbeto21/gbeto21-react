@@ -2,20 +2,27 @@
   "data": [
     {
       "number": 1,
+      "name": "AWS Certified Solutions Architect",
+      "level": "July, 2022",
+      "image": "/images/awsarchitect.png",
+      "classCSS": "square-shape3"
+    },
+    {
+      "number": 2,
       "name": "Cloud Developer Nanodegree",
       "level": "November, 2021",
       "image": "/images/udacity.svg",
       "classCSS": "square-shape"
     },
     {
-      "number": 2,
+      "number": 3,
       "name": "AWS Certified Developer",
       "level": "August, 2021",
       "image": "/images/awsdeveloper.png",
       "classCSS": "square-shape3"
     },
     {
-      "number": 3,
+      "number": 4,
       "name": "AWS Certified Cloud Practitioner",
       "level": "June, 2021",
       "image": "/images/awspractitioner.png",

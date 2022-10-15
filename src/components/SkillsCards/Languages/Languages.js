@@ -5,8 +5,8 @@ import languages from "./languajesData.json";
 const CardLanguages = () => {
   return (
     <BaseCard
-      sizeColImage={6}
-      sizeColBody={6}
+      sizeColImage={5}
+      sizeColBody={7}
       data={languages.data}
       title="Languages"
     />
