@@ -9,11 +9,7 @@ const Greetings = () => {
     "🌐 Full stack developer",
     "👨🏻‍💻 AWS Certified Developer",
     "👷🏻‍♂️ AWS Solutions architect",
-    "🎓 Mastering Node",
-    `🏀 Basketball player`,
-    `🏐 Volleyball player`,
-    "🎸 Guitar learner",
-    "🪗 Accordion learner"
+    "🎓 Mastering Node"
   ];
 
   return (
