@@ -30,6 +30,14 @@ nav {
   background-color: var(--primary-blue) !important;
 }
 
+.logo{
+  background: url(/images/logo.png) no-repeat;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  margin-right: 1.3rem;
+}
+
 /*--- NAV LINKS ---*/
 nav a.nav-link {
   letter-spacing: 0.0375rem;
