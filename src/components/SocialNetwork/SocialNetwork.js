@@ -10,15 +10,6 @@ const SocialNetwork = () => {
       <a href="https://mx.linkedin.com/in/gbeto21" target="_blank">
         <i className="fa fa-linkedin-square"></i>
       </a>
-      <a href="https://twitter.com/gbeto21" target="_blank">
-        <i className="fa fa-twitter"></i>
-      </a>
-      <a href="https://www.instagram.com/gbeto21/" target="_blank">
-        <i className="fa fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com/gbeto21" target="_blank">
-        <i className="fa fa-facebook-square"></i>
-      </a>
     </div>
   );
 };
