@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const apoloClient = new ApolloClient({
-  uri: "https://gbeto21-api.herokuapp.com/graphql/",
+  uri: "https://gbeto21-api.onrender.com/graphql/",
   cache: new InMemoryCache(),
 });
 

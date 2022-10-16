@@ -5,8 +5,8 @@ import frameworks from "./frameworksData.json";
 const CardFrameworks = () => {
   return (
     <BaseCard
-      sizeColImage={6}
-      sizeColBody={6}
+      sizeColImage={5}
+      sizeColBody={7}
       data={frameworks.data}
       title="Frameworks"
     />

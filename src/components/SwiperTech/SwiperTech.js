@@ -35,6 +35,9 @@ const SwiperTech = () => {
           <div className="item item-gh"></div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className="item item-nx"></div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className="item item-js"></div>
         </SwiperSlide>
         <SwiperSlide className="slide-nd">

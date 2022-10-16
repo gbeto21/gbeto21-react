@@ -30,6 +30,13 @@
   background: url(/images/react.svg) no-repeat;
 }
 
+.item-nx {
+  width: 8.3rem;
+  height: 5.563rem;
+  margin-top: 1.4rem;
+  background: url(/images/nx.svg) no-repeat;
+}
+
 .item-ts {
   margin-left: 1.5rem;
   margin-top: 1.6rem;

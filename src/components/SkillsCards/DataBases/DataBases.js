@@ -5,8 +5,8 @@ import databases from "./dataBasesData.json";
 const CardDataBases = () => {
   return (
     <BaseCard
-      sizeColImage={6}
-      sizeColBody={6}
+      sizeColImage={5}
+      sizeColBody={7}
       data={databases.data}
       title="Data Bases"
     />

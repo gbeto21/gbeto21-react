@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ErrorAlert from "../ErrorAlert/ErrorAlert";
 import ProjectsLayout from "../ProjectsCards/ProjectsLayout/ProjectsLayout";
 import { useQuery, gql } from "@apollo/client";
@@ -58,9 +58,7 @@ const ProjectsPortfolio = ({ technologys }) => {
     return <ProjectsLayout projects={data.projects} />;
   }
   return (
-    <p className="d-flex mt-3 justify-content-center fs-5">
-      Please select an item.
-    </p>
+    <Fragment></Fragment>
   );
 };
 

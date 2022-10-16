@@ -16,17 +16,17 @@
     },
     {
       "number": 3,
-      "name": "React",
-      "level": "Intermediate",
-      "image": "/images/react.svg",
+      "name": "Next.js",
+      "level": "Basic",
+      "image": "/images/nx.svg",
       "classCSS": "horizontal-shape"
     },
     {
       "number": 4,
-      "name": "Angular",
-      "level": "Basic",
-      "image": "/images/angular.svg",
+      "name": "React",
+      "level": "Intermediate",
+      "image": "/images/react.svg",
       "classCSS": "horizontal-shape"
-    }
+    }    
   ]
 }
