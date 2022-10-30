@@ -8,7 +8,8 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
 
-                <div className='logo'></div>
+                <img src="/images/logo.svg" className="logo" alt="gbetologo"></img>
+                <p className="nav-title text-uppercase fs-3">gbeto21</p>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
                 </button>

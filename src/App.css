@@ -32,11 +32,9 @@ nav {
 }
 
 .logo {
-  background-image: url(/images/gbeto21.png);
-  background-size: 9.5rem;
-  width: 9.5rem;
-  height: 2rem;
-  object-fit: cover;
+  width: 2.5rem;
+  height: 3rem;
+  margin: 0rem 1rem;
 }
 
 /*--- NAV LINKS ---*/
